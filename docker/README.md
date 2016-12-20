@@ -1,8 +1,8 @@
 # Terraform/Jenkins/Docker
 
 ## Pre-requisites
-Install Docker Toolbox
-Install terraform CLI
+* Install Docker Toolbox
+* Install terraform CLI
 
 ## Generate and show an execution plan
 <code>terraform plan</code>
