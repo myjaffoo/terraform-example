@@ -16,3 +16,8 @@
 <code>terraform plan</code>
 
 <code>terraform apply</code>
+
+## Verify Jenkins is up and running
+* List your docker machines - docker-machine ls
+* Get your docker machine ip - docker-machine ip $machine-name
+* Check jenkins is available at http://$docker-machine-ip:8080
