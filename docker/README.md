@@ -3,7 +3,7 @@
 ## Pre-requisites
 * Install Docker Toolbox
 * Install terraform CLI
-* replace the variable [here](https://github.com/yas360/terraform-example/blob/master/docker/docker-jenkins.tf#L3) with your docker machine ip
+* Replace the variable [here](https://github.com/yas360/terraform-example/blob/master/docker/docker-jenkins.tf#L3) with your docker machine ip
 
 ## Generate and show an execution plan
 <code>terraform plan</code>
