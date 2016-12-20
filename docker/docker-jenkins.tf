@@ -1,6 +1,6 @@
 # Configure the Docker provider
 provider "docker" {
-	 host = "tcp://192.168.99.100:2376"
+	 host = "tcp://$docker-machine-ip:2376"
 }
 
 # Create a container
