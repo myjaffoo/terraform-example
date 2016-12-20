@@ -3,6 +3,7 @@
 ## Pre-requisites
 * Install Docker Toolbox
 * Install terraform CLI
+* replace the variable [here](https://github.com/yas360/terraform-example/blob/master/docker/docker-jenkins.tf#L3) with your docker machine ip
 
 ## Generate and show an execution plan
 <code>terraform plan</code>
@@ -21,5 +22,3 @@
 * List your docker machines - docker-machine ls
 * Get your docker machine ip - docker-machine ip $machine-name
 * Check jenkins is available at http://$docker-machine-ip:8080
-
-<b>N.B - replace the variable [here](https://github.com/yas360/terraform-example/blob/master/docker/docker-jenkins.tf#L3) with your docker machine ip </b>
