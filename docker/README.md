@@ -21,3 +21,5 @@
 * List your docker machines - docker-machine ls
 * Get your docker machine ip - docker-machine ip $machine-name
 * Check jenkins is available at http://$docker-machine-ip:8080
+
+<b>N.B - replace the variable on line 3 with your docker machine ip </b>
